@@ -382,7 +382,7 @@
 		AddComponent(/datum/component/holdertargeting/smartgun/nukeop, 3)
 
 //smart extinguisher
-/obj/item/firearm/flamethrower/extinguisher
+/obj/item/firearm/incidenary/flamethrower/extinguisher
 	name = "smart fire extinguisher"
 	desc = "An advanced fire extinguisher that locks onto nearby burning personnel and sprays them down with fire-fighting foam."
 	icon = 'icons/obj/items/items.dmi'

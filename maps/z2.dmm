@@ -34956,7 +34956,7 @@
 /turf/unsimulated/wall/auto/reinforced/supernorn,
 /area/owlery/Owlmait)
 "cEX" = (
-/obj/item/firearm/flamethrower/assembled/loaded,
+/obj/item/firearm/incidenary/flamethrower/assembled/loaded,
 /obj/item/clothing/suit/hazard/fire/armored,
 /obj/item/clothing/head/helmet/welding,
 /obj/machinery/light/emergency{

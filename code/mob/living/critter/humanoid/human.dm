@@ -137,7 +137,7 @@ ABSTRACT_TYPE(/mob/living/critter/human/syndicate)
 		HH.can_hold_items = FALSE
 		HH.can_attack = TRUE
 		HH.can_range_attack = TRUE
-		HH.object_for_inhand = /obj/item/firearm/kinetic/assault_rifle
+		HH.object_for_inhand = /obj/item/firearm/kinetic/sirius_assault_rifle
 
 ABSTRACT_TYPE(/mob/living/critter/human/cultist)
 /mob/living/critter/human/cultist

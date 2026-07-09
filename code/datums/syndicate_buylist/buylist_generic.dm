@@ -42,7 +42,7 @@ ABSTRACT_TYPE(/datum/syndicate_buylist/generic)
 
 /datum/syndicate_buylist/generic/radbow
 	name = "Rad Poison Crossbow"
-	items = list(/obj/item/firearm/energy/crossbow)
+	items = list(/obj/item/firearm/energy/radiological/crossbow)
 	cost = 3
 	desc = "Crossbow Model C - Now with safer Niobium core. This ranged weapon is great for hitting someone in a dark corridor! They'll never know what hit em! Will slowly recharge between shots."
 

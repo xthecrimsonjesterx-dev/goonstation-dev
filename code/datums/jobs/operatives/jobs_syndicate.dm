@@ -94,7 +94,7 @@ ABSTRACT_TYPE(/datum/job/special/syndicate/specialist)
 	slot_head = list(/obj/item/clothing/head/helmet/space/syndicate/specialist)
 	slot_suit = list(/obj/item/clothing/suit/space/syndicate/specialist)
 	slot_poc1 = list(/obj/item/storage/pouch/assault_rifle/mixed)
-	items_in_backpack = list(/obj/item/firearm/kinetic/assault_rifle,
+	items_in_backpack = list(/obj/item/firearm/kinetic/sirius_assault_rifle,
 		/obj/item/storage/grenade_pouch/mixed_standard,
 		/obj/item/breaching_charge,
 		/obj/item/breaching_charge)
@@ -107,7 +107,7 @@ ABSTRACT_TYPE(/datum/job/special/syndicate/specialist)
 	slot_poc1 = list(/obj/item/storage/pouch/tranq_pistol_dart)
 	slot_back = list(/obj/item/storage/backpack/chameleon/no_belt)
 	slot_belt = list(/obj/item/storage/belt/chameleon/tactical)
-	items_in_belt = list(/obj/item/firearm/kinetic/tranq_pistol,
+	items_in_belt = list(/obj/item/firearm/kinetic/pistol/ceridwen_tranq_pistol,
 		/obj/item/dna_scrambler,
 		/obj/item/voice_changer,
 		/obj/item/card/emag,
@@ -169,7 +169,7 @@ ABSTRACT_TYPE(/datum/job/special/syndicate/specialist)
 
 	special_setup(var/mob/living/carbon/human/M)
 		..()
-		var/obj/item/firearm/flamethrower/backtank/flamethrower = new /obj/item/firearm/flamethrower/backtank/napalm(M)
+		var/obj/item/firearm/incidenary/flamethrower/backtank/flamethrower = new /obj/item/firearm/incidenary/flamethrower/backtank/napalm(M)
 		var/obj/item/tank/jetpack/backtank/our_tank = flamethrower.fueltank
 		our_tank.insert_flamer(flamethrower, M)
 		M.equip_if_possible(our_tank, SLOT_BACK)

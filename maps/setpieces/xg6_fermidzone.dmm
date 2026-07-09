@@ -359,7 +359,7 @@
 	pixel_x = -10;
 	tag = ""
 	},
-/obj/item/firearm/energy/blaster_cannon{
+/obj/item/firearm/energy/radiological/blaster_cannon{
 	rarity = 5
 	},
 /turf/unsimulated/floor/plating{

@@ -321,7 +321,7 @@
 /area/janitor_setpiece)
 "aX" = (
 /obj/storage/closet/wardrobe/specialty_janitor,
-/obj/item/firearm/flamethrower/assembled/loaded/napalm,
+/obj/item/firearm/incidenary/flamethrower/assembled/loaded/napalm,
 /obj/machinery/light/incandescent/broken{
 	dir = 4
 	},

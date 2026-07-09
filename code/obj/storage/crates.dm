@@ -539,7 +539,7 @@ TYPEINFO(/obj/storage/crate/chest)
 	assault
 		name = "Class Crate - Assault Trooper"
 		desc = "A crate containing a Specialist Operative loadout. This one includes a customized assault rifle, several additional magazines as well as an assortment of breach and clear grenades."
-		spawn_contents = list(/obj/item/firearm/kinetic/assault_rifle,
+		spawn_contents = list(/obj/item/firearm/kinetic/sirius_assault_rifle,
 		/obj/item/storage/pouch/assault_rifle/mixed,
 		/obj/item/storage/grenade_pouch/mixed_standard,
 		/obj/item/breaching_charge = 2,
@@ -562,7 +562,7 @@ TYPEINFO(/obj/storage/crate/chest)
 	infiltrator
 		name = "Class Crate - Infiltrator" // for actually fitting in among the crew.
 		desc = "A crate containing a Specialist Operative loadout. Includes a tranquilizer pistol, chameleon outfit, chameleon projector and a DNA scrambler."
-		spawn_contents = list(/obj/item/firearm/kinetic/tranq_pistol,
+		spawn_contents = list(/obj/item/firearm/kinetic/pistol/ceridwen_tranq_pistol,
 		/obj/item/storage/pouch/tranq_pistol_dart,
 		/obj/item/pinpointer/disk,
 		/obj/item/dna_scrambler,
@@ -629,7 +629,7 @@ TYPEINFO(/obj/storage/crate/chest)
 	pyro
 		name = "Class Crate - Firebrand"
 		desc = "A crate containing a Specialist Operative loadout. This one contains a fire axe, a napalm-filled flamethrower and fireproof armor."
-		spawn_contents = list(/obj/item/firearm/flamethrower/backtank/napalm,
+		spawn_contents = list(/obj/item/firearm/incidenary/flamethrower/backtank/napalm,
 		/obj/item/fireaxe,
 		/obj/item/storage/grenade_pouch/napalm,
 		/obj/item/storage/grenade_pouch/incendiary,

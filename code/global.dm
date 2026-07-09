@@ -586,3 +586,10 @@ var/global
 #ifdef TWITCH_BOT_ALLOWED
 var/global/mob/twitch_mob = 0
 #endif
+
+// Weapon Values
+
+#define ONE_BARREL 1
+#define TWO_BARRELS 2
+#define ALL_BARRELS 4
+#define MAX_USES 9

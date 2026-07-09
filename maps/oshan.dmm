@@ -19890,7 +19890,7 @@
 /obj/item/firearm/kinetic/flaregun,
 /obj/item/ammo/bullets/flare,
 /obj/item/ammo/bullets/flare,
-/obj/item/firearm/flamethrower/assembled/loaded,
+/obj/item/firearm/incidenary/flamethrower/assembled/loaded,
 /turf/simulated/floor/redblack{
 	dir = 10
 	},

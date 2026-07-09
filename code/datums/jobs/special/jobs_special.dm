@@ -357,7 +357,7 @@ ABSTRACT_TYPE(/datum/job/special)
 	can_roll_antag = FALSE
 	add_to_manifest = FALSE
 
-	slot_back = list(/obj/item/firearm/energy/blaster_cannon)
+	slot_back = list(/obj/item/firearm/energy/radiological/blaster_cannon)
 	slot_belt = list(/obj/item/storage/fanny)
 	//more
 

@@ -1193,9 +1193,9 @@ ABSTRACT_TYPE(/obj/item/storage/belt/gun)
 	icon_state = "smartgun_belt"
 	item_state = "smartgun_belt"
 	slots = 6
-	gun_type = /obj/item/firearm/kinetic/pistol/smart/mkII
-	can_hold = list(/obj/item/firearm/kinetic/pistol/smart/mkII)
-	spawn_contents = list(/obj/item/firearm/kinetic/pistol/smart/mkII, /obj/item/ammo/bullets/bullet_22/smartgun = 4)
+	gun_type = /obj/item/firearm/kinetic/pistol/smart/hydra_mkII
+	can_hold = list(/obj/item/firearm/kinetic/pistol/smart/hydra_mkII)
+	spawn_contents = list(/obj/item/firearm/kinetic/pistol/smart/hydra_mkII, /obj/item/ammo/bullets/bullet_22/smartgun = 4)
 
 
 // fancy shoulder sling for grenades

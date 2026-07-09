@@ -4061,7 +4061,7 @@ ABSTRACT_TYPE(/datum/manufacture/radio_upgrade)
 	name = "Tactical Shotgun"
 	item_requirements = list("metal_superdense" = 15,
 							 "conductive" = 5)
-	item_outputs = list(/obj/item/firearm/kinetic/tactical_shotgun)
+	item_outputs = list(/obj/item/firearm/kinetic/pryderi_tactical_shotgun)
 	create = 1
 	time = 20 SECONDS
 	category = MANUFACTURER::CATEGORY::WEAPON

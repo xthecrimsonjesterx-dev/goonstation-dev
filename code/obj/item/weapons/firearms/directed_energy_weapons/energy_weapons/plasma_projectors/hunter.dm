@@ -1,0 +1,69 @@
+////////////////////////////////////////// Plasma projectors child //////////////////////////////////////////////////
+// To be completed refactores file location for weapons pre-2026-era code here. All weapons code parents should be placed inside the primary folders as primary directives.
+// All files secondary to such must be placed in a new secondary folder within the primary folder. This is to ensure that all weapons code is properly-
+// organized and as easy to navigate for future development and maintenance. Ensure they are named appropriately.
+//
+// Contains:
+// - Primary Folder
+// -- example_parent.dm
+// -- Secondary Folder
+// --- example_child.dm
+//
+
+///////////////////////////////////////Hunter
+TYPEINFO(/obj/item/firearm/energy/plasma_gun)
+	mats = list("metal_superdense" = 7,
+				"crystal" = 13,
+				"energy_high" = 10)
+/obj/item/firearm/energy/plasma_gun/ // Made use of a spare sprite here (Convair880).
+	name = "plasma rifle"
+	desc = "This advanced bullpup rifle contains a self-recharging power cell."
+	icon_state = "bullpup"
+	item_state = "bullpup"
+	var/base_item_state = "bullpup"
+	force = 5
+	cell_type = /obj/item/ammo/power_cell/self_charging/mediumbig
+	muzzle_flash = "muzzle_flash_plaser"
+	uses_charge_overlay = TRUE
+	charge_icon_state = "bullpup"
+
+	New()
+		set_current_projectile(new/datum/projectile/laser/plasma)
+		projectiles = list(new/datum/projectile/laser/plasma)
+		..()
+
+/obj/item/firearm/energy/plasma_gun/vr
+	name = "advanced laser gun"
+	icon = 'icons/effects/VR.dmi'
+	icon_state = "wavegun"
+	base_item_state = "wavegun"
+	uses_charge_overlay = TRUE
+	charge_icon_state = "wavegun"
+
+TYPEINFO(/obj/item/firearm/energy/plasma_gun/hunter)
+	analyser_flags = ANALYSER_BLACKLIST
+
+/obj/item/firearm/energy/plasma_gun/hunter
+	name = "Hunter's plasma rifle"
+	desc = "This unusual looking rifle contains a self-recharging power cell."
+	icon_state = "hunter"
+	item_state = "hunter"
+	base_item_state = "hunter"
+	uses_charge_overlay = TRUE
+	charge_icon_state = "hunter"
+	var/hunter_key = "" // The owner of this rifle.
+
+	New()
+		..()
+		if(istype(src.loc, /mob/living))
+			var/mob/M = src.loc
+			src.AddComponent(/datum/component/self_destruct, M)
+			src.AddComponent(/datum/component/send_to_target_mob, src)
+			src.hunter_key = M.mind.key
+			START_TRACKING_CAT(TR_CAT_HUNTER_GEAR)
+			FLICK("[src.base_item_state]-tele", src)
+
+	disposing()
+		. = ..()
+		if (hunter_key)
+			STOP_TRACKING_CAT(TR_CAT_HUNTER_GEAR)

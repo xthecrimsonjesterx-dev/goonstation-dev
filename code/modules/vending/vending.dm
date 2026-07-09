@@ -3588,7 +3588,7 @@ TYPEINFO(/obj/machinery/vending/murderbox_armory)
 		product_list += new/datum/data/vending_product(/obj/item/firearm/kinetic/clock_188/boomerang, 1, infinite = TRUE)
 		product_list += new/datum/data/vending_product(/obj/item/ammo/bullets/nine_mm_NATO, 1, infinite = TRUE)
 
-		product_list += new/datum/data/vending_product(/obj/item/firearm/flamethrower/assembled/loaded, 1, infinite = TRUE)
+		product_list += new/datum/data/vending_product(/obj/item/firearm/incidenary/flamethrower/assembled/loaded, 1, infinite = TRUE)
 		product_list += new/datum/data/vending_product(/obj/item/firearm/kinetic/flaregun, 1, infinite = TRUE)
 		product_list += new/datum/data/vending_product(/obj/item/ammo/bullets/flare, 1, infinite = TRUE)
 

@@ -209,7 +209,7 @@
 /obj/item/shovel{
 	name = "trench shovel"
 	},
-/obj/item/firearm/kinetic/tactical_shotgun,
+/obj/item/firearm/kinetic/pryderi_tactical_shotgun,
 /turf/unsimulated/floor/industrial,
 /area/adventure{
 	name = "Caer Vedwyd";
@@ -4665,13 +4665,13 @@
 /obj/item/storage/pouch/shotgun,
 /obj/item/storage/pouch/shotgun,
 /obj/item/storage/pouch/shotgun,
-/obj/item/firearm/kinetic/tactical_shotgun{
+/obj/item/firearm/kinetic/pryderi_tactical_shotgun{
 	pixel_y = -6
 	},
-/obj/item/firearm/kinetic/tactical_shotgun{
+/obj/item/firearm/kinetic/pryderi_tactical_shotgun{
 	pixel_y = 6
 	},
-/obj/item/firearm/kinetic/tactical_shotgun,
+/obj/item/firearm/kinetic/pryderi_tactical_shotgun,
 /obj/item/storage/box/crowdgrenades,
 /turf/unsimulated/floor/wood/two,
 /area/adventure{
@@ -13635,7 +13635,7 @@
 	})
 "Jw" = (
 /obj/table/wood/auto/desk,
-/obj/item/firearm/kinetic/tranq_pistol{
+/obj/item/firearm/kinetic/pistol/ceridwen_tranq_pistol{
 	pixel_y = 8
 	},
 /obj/item/ammo/bullets/tranq_darts/syndicate/pistol{
@@ -13650,7 +13650,7 @@
 /obj/item/ammo/bullets/tranq_darts/syndicate/pistol{
 	pixel_x = 1
 	},
-/obj/item/firearm/kinetic/tranq_pistol{
+/obj/item/firearm/kinetic/pistol/ceridwen_tranq_pistol{
 	pixel_y = 2
 	},
 /obj/window/bulletproof/north,
@@ -18830,7 +18830,7 @@
 /obj/item/shovel{
 	name = "trench shovel"
 	},
-/obj/item/firearm/kinetic/tactical_shotgun,
+/obj/item/firearm/kinetic/pryderi_tactical_shotgun,
 /turf/unsimulated/floor/industrial,
 /area/adventure{
 	name = "Caer Vedwyd";

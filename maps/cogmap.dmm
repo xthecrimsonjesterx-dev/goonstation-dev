@@ -64319,7 +64319,7 @@
 	dir = 4
 	},
 /obj/storage/secure/crate/plasma/armory/anti_biological,
-/obj/item/firearm/flamethrower/assembled/loaded,
+/obj/item/firearm/incidenary/flamethrower/assembled/loaded,
 /turf/simulated/floor,
 /area/station/ai_monitored/armory)
 "xOJ" = (
