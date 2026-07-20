@@ -17,6 +17,7 @@ TYPEINFO(/obj/item/firearm/energy/alastor)
 	mats = list("metal_dense" = 15,
 				"conductive_high" = 10,
 				"energy_high" = 10)
+
 /obj/item/firearm/energy/alastor
 	name = "\improper Alastor pattern laser rifle"
 	inhand_image_icon = 'icons/mob/inhand/hand_guns.dmi'

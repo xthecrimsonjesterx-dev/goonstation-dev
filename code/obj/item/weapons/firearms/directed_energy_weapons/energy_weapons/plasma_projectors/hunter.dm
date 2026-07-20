@@ -15,6 +15,7 @@ TYPEINFO(/obj/item/firearm/energy/plasma_gun)
 	mats = list("metal_superdense" = 7,
 				"crystal" = 13,
 				"energy_high" = 10)
+
 /obj/item/firearm/energy/plasma_gun/ // Made use of a spare sprite here (Convair880).
 	name = "plasma rifle"
 	desc = "This advanced bullpup rifle contains a self-recharging power cell."

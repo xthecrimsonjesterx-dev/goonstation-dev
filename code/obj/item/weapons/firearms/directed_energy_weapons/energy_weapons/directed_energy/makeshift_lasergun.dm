@@ -13,6 +13,7 @@
 // Makeshift Laser Rifle
 #define HEAT_REMOVED_PER_PROCESS 30
 #define FIRE_THRESHOLD 125
+
 TYPEINFO(/obj/item/firearm/energy/makeshift)
 	analyser_flags = ANALYSER_BLACKLIST
 

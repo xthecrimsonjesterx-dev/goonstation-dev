@@ -16,6 +16,7 @@ TYPEINFO(/obj/item/firearm/energy/pickpocket)
 	mats = list("metal" = 5,
 				"conductive_high" = 5,
 				"energy_high" = 10)
+
 /obj/item/firearm/energy/pickpocket
 	name = "\improper Super! Grapple Friend" // like foam dart guns
 	desc = "A complicated, camoflaged claw device on a tether capable of complex and stealthy interactions. It's definitely not just a repurposed janky toy that steals shit."
